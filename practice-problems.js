@@ -78,3 +78,27 @@ function factorial (num) {
 console.log('factorial of 4 is:',factorial(4));
 console.log('factorial of 5 is:',factorial(5));
 
+function MazeSolver(maze) {
+
+  this.maze = maze;
+ 
+  this.traverse(column, row) {
+    if(this.mazeArr[column, row] == 'e'){
+      console.log(`Solved at column ${column}, row ${row} `);
+    } else if(this.mazeArr[column][row] === ' ')
+  };
+
+  if (mazeArr[location[0]][location[1]] === 'e')
+  if (mazeArr[location[0]][location[1]] === '*')
+  if (mazeArr[location[0]][location[1]] === ' ')
+    return location;
+
+}
+
+let mySmallMaze = [
+  [' ', ' ', ' '],
+  [' ', '*', ' '],
+  [' ', ' ', 'e']
+];
+
+console.log(mazeSolver(mySmallMaze))
